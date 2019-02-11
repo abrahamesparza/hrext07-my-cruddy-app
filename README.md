@@ -16,7 +16,14 @@ Create Read Update and Delete framework using JS
 -----------------------------------------------------------
 
 Objective:
-* App requirements:
+
+ * Create a subscription page.
+   * Allow visitor to sign-up for daily alerts:
+     [ ] Motivational Quotes
+     [ ] Inspirational Quotes
+     [ ] Peaceful Quotes
+
+<!-- * App requirements:
 
 - [ ] Define interface
 	* madeEasy: Generates random result based on filters provided (bar, restaraunt, lounge, location, price range, etc.)
@@ -40,4 +47,4 @@ Objective:
 	    * generate new random result for User based on filters
 
 - [ ] What will the design look like?
-	* Sleek, Modern, Simple, Fun
+	* Sleek, Modern, Simple, Fun -->
