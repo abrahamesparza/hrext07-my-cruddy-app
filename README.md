@@ -17,11 +17,28 @@ Create Read Update and Delete framework using JS
 
 Objective:
 
+	html/css
  * Create a subscription page.
    * Allow visitor to sign-up for daily alerts:
-     [ ] Motivational Quotes
-     [ ] Inspirational Quotes
-     [ ] Peaceful Quotes
+     [√] Motivational Quotes
+     [√] Inspirational Quotes
+     [√] Peaceful Quotes 
+
+     html/css
+ * Make page more appealing
+ 	 [ ] Create 3 sections for page: Left, Middle, Right
+ 	 [ ] Add images that show Motivation, Inspiration, and Mindfulness
+ 	 [ ] Align all content on page, edit email with a light opacity above all everything
+
+ * Add jQuery to .js file
+ 	* Minimum:
+ 	 [ ] Save submissions to local storage
+ 	 [ ] Make all the buttons work.
+ 	
+ 	* Advanced:
+ 	 [ ] Create a success messsage when email submitted (html/jquery)
+ 	 [ ] Create a random generator to change photos of all sections in every x amount of time
+ 	     (Pass in 3 photos each section)
 
 <!-- * App requirements:
 
