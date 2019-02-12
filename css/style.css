@@ -1,48 +1,82 @@
-html {
+html{
 	background-color: #f5ff5c;
 }
 .headline-container {
 	display: flex;
 	justify-content: center;
 	margin: auto;
+/*	padding-top: 50%;*/
 	font-family: vogue;
+	font-size: 32px;
 }
 .image-container {
+	position: relative;
+	width: 82%;
+/*	height: 100%;
+	padding: 0;*/
+	margin: 0 auto;
+	justify-content: center;
 	opacity: 0.5;
-	margin: auto;
+/*	margin: 0;
+	padding: 0;*/
+/*	display: flex;*/
+/*	background: all;*/
+}
+.quote-container-animation {
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: vogue;
+	opacity: 0.5;
+	animate
+}
+.greeting-container {
+	justify-content: center;
+  text-align: center;
+  font-family: vogue;
+  font-size: 32px;
+/*  opacity: .5;*/
+}
+.note-container, .note-btn, .note1 {
+	justify-content: center;
+	display: flex;  
+  text-align: center;
+  font-family: vogue;
+  font-size: 20px;
+}
+.column {
 	display: flex;
 	justify-content: center;
+	float: left;
+  align-content: center;
+	text-align: center;
+	position: relative;
+	border-style: groove;
+	border-width: 10px;
+	border-color: white;
+  width: 250px;
+  /*padding: 100px;
+*/  height: 500px;
+	font-family: vogue;
 }
-p {
-	padding-left: 10px;
-	display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  font-family: vogue;
-  font-size: 18px;
-}
-.form-contaienr {
-	display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  font-family: vogue;
-  font-size: 18px;
+.row {
+	display: table;
 }
 /*.aside-container {
 	display: flex;
 	flex-direction: column;
 }
 */footer {
-	position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  font-size: 16px;
-/*  opacity: 0.075*/
-  background-color: #D3D3D3;
+  background-color: #efefef;
   text-align: center;
   font-family: vogue;
 }

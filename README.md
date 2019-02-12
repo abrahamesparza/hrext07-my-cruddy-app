@@ -26,17 +26,17 @@ Objective:
 
      html/css
  * Make page more appealing
- 	 [ ] Create 3 sections for page: Left, Middle, Right
- 	 [ ] Add images that show Motivation, Inspiration, and Mindfulness
- 	 [ ] Align all content on page, edit email with a light opacity above all everything
+ 	 [ ] Create slideshow for images of motivation, inspiration an mindfulness
+ 	 [1of3] Add images that show Motivation, Inspiration, and Mindfulness
+ 	 [√] Align all content on page, edit email with a light opacity above all everything
 
  * Add jQuery to .js file
  	* Minimum:
- 	 [ ] Save submissions to local storage
+ 	 [√] Save submissions to local storage
  	 [ ] Make all the buttons work.
  	
  	* Advanced:
- 	 [ ] Create a success messsage when email submitted (html/jquery)
+ 	 [√] Create a success messsage when email submitted (html/jquery)
  	 [ ] Create a random generator to change photos of all sections in every x amount of time
  	     (Pass in 3 photos each section)
 

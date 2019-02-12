@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Inspire</title>
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
@@ -11,49 +12,53 @@
   <script src="app/app.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-  
 <body>
 
   <div class="headline-container">
-    <h1>Inspire.</h1>
+    <h1 style="color: white">Levitate.</h1>
   </div>
 
-  <div class="form-container">
-  <form action="/action_page.php">
-    <aside class="aside-container">
-      <p>Subscribe for daily Mindfulness</p>
-      <ul>
-       <li><input type="checkbox" name="motivational-quotes" value="on">Motivational Quotes</li>
-       <li><input type="checkbox" name="inspirational-quotes" value="on">Inspirational Quotes</li>
-       <li><input type="checkbox" name="mindful-quotes" value="on"> Mindful Quotes</li>
-      </ul>
-        <form action="/action_page.php">
-    Email: <input type="email" name="email-container" placeholder="Email">
-    <input type="Submit">
-      </form>
-  </form>
-    </aside>
-<!--   </div>
+    <div class="image-container">
+      <img src="imgs/insbg.jpg" alt="Inspiring View">
+<!--       <img src="imgs/ins2.jpg" alt="Inspiring View">
+      <img src="imgs/ins3.jpg" alt="Inspiring View">
+      <img src="imgs/ins4.jpg" alt="Inspiring View"> -->
+    </div>
 
-  <div class="image-container">
-    <img src="imgs/Smiley.gif" alt="Smiley Face" style="width: 500px; height: 500px;">
+      <div class="quote-container-animation">
+        <h1><em>The World Is But A Canvas For Our Imagination</em></h1>
+      </div>
+  
+<!-- 
+    <div class="row">
+    <div class="column" style="background-color: #aaa">
+      <h3> Motivation </h3>
+    </div>
+    <div class="column" style="background-color: #bbb">
+      <h3> Inspiration </h3>
+    </div>
+    <div class="column" style="background-color: #ccc">
+      <h3> Tranquility </h3>
+    </div>
   </div> -->
 
+<!--   <div class="greeting-container">
+    <h2>Subscribe for daily Mindfulness</h2>
+  </div> -->
 
+   <div class="greeting-container">
+    <h2 style="color: white">Subscribe for daily Mindfulness</h2>
+  </div>
 
+  <div class="note-container">
+    <input type="text" class="note1" placeholder="Email.." size="50%">
+    <button class="note-btn" onclick="alert('Thank you for your submission!')">Submit</button>
+  </div>
 
-
-
-
-
-
-
-
-
-
+  <div class="data-container"></div>
 
 </body>
-<footer>Created By Abraham Esparza</footer>
+<!-- <footer>Created By Abraham Esparza</footer> -->
 </html>
 
   <!--
@@ -66,9 +71,9 @@
 √ delete button
 container for the response-feedback (start with alert)
 -->
-<!-- <body>
+<body>
 
-<div class="container-main">
+<!-- <div class="container-main">
   <header>My Cruddy App</header>
   <div class="container-form">
     <input type="text" class="input-key" placeholder="enter key">
@@ -79,4 +84,5 @@ container for the response-feedback (start with alert)
     <button class="btn-clear">Clear</button>
   </div>
   <div class="container-data"></div>
-</div> -->
+</div>
+ -->

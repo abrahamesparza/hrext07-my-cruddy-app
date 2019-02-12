@@ -5,7 +5,16 @@ interact with localstorage
  */
 
  $(document).ready(function() {
-  
+
+  $('.note-btn').on('click', function(el) {
+    console.log(el);
+    var note = $('note1').val();
+    localstorage.setItem(note);
+    var displayNote = note + ' ' + localstorage.getItem(note);
+
+    $('data-container').html('<div class="note-data" data-note="' + note + '">' + note + '</div>');
+    $('note1').val('')
+  })
 
  })
 
