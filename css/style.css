@@ -1,4 +1,5 @@
 html{
+	size: 100%;
 	background-color: #f5ff5c;
 }
 .headline-container {
@@ -8,6 +9,7 @@ html{
 /*	padding-top: 50%;*/
 	font-family: vogue;
 	font-size: 32px;
+	text-shadow: 2px 2px silver;
 }
 .image-container {
 	position: relative;
@@ -22,26 +24,28 @@ html{
 /*	display: flex;*/
 /*	background: all;*/
 }
-.quote-container-animation {
+.quote-container {
 	justify-content: center;
 	position: absolute;
 	top: 50%;
 	width: 100%;
 	text-align: center;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
 	font-family: vogue;
 	opacity: 0.5;
 	animate
 }
 .greeting-container {
+	background-color: lightblue;
 	justify-content: center;
   text-align: center;
   font-family: vogue;
-  font-size: 32px;
-/*  opacity: .5;*/
+  font-size: 38px;
+  padding: 7px;
+	text-shadow: 2px 2px silver;
 }
-.note-container, .note-btn, .note1 {
+.email-container {
 	justify-content: center;
 	display: flex;  
   text-align: center;
@@ -49,38 +53,21 @@ html{
   font-size: 20px;
 }
 .column {
-	display: flex;
-	justify-content: center;
-	float: left;
-  align-content: center;
-	text-align: center;
-	position: relative;
-	border-style: groove;
-	border-width: 10px;
-	border-color: white;
-  width: 250px;
-  /*padding: 100px;
-*/  height: 500px;
-	font-family: vogue;
-}
-.row {
-	display: table;
-}
-/*.aside-container {
-	display: flex;
-	flex-direction: column;
-}
-*/footer {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
+  float: left;
   text-align: center;
+  font-size: 36px;
+  color: white;
   font-family: vogue;
+  align-self: center;
+  width: 47%;
+  height: 350px;
+  padding: 10px;
+  text-shadow: 2px 2px silver;
+/*  border: groove silver 3px;*/
 }
-li {
-	padding: 10px;
-	align-items: left;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

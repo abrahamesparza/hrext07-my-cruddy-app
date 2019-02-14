@@ -4,19 +4,21 @@ interact with DOM
 interact with localstorage
  */
 
- $(document).ready(function() {
+ // $(document).ready(function() {
+ //  //add tasks
+ //    $('.add-task').on('click', function(task) {
+ //      console.log(task);
 
-  $('.note-btn').on('click', function(el) {
-    console.log(el);
-    var note = $('note1').val();
-    localstorage.setItem(note);
-    var displayNote = note + ' ' + localstorage.getItem(note);
+ //      var taskLabel = $('.label').val();
+ //      var taskData = $('.add-task').val();
+ //      localStorage.setItem(taskData, taskLabel);
+ //      var displayData = taskData + localStorage.getItem(taskData);
 
-    $('data-container').html('<div class="note-data" data-note="' + note + '">' + note + '</div>');
-    $('note1').val('')
-  })
-
- })
+ //      $('.data-container').html('<div class="display-data" data-val="' + taskData + '">' + taskLabel + '</div>');
+ //      $('.taskLabel').val('');
+ //      $('.taskData').val('')
+ //    })
+ // })
 
 // $(document).ready(function(){
 // //   // this is where we jquery
