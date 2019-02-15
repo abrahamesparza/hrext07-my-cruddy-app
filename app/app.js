@@ -3,7 +3,6 @@ Init app
 interact with DOM
 interact with localstorage
  */
-
 var todoList = {
   todos: [],
   displayTodos: function() {

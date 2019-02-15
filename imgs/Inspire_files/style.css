@@ -1,0 +1,72 @@
+html, body{
+	background-color: #f5ff5c;
+}
+.headline-container {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+/*	padding-top: 50%;*/
+	font-family: vogue;
+	font-size: 32px;
+	text-shadow: 2px 2px silver;
+}
+.image-container {
+	position: relative;
+	width: 82%;
+/*	height: 100%;
+	padding: 0;*/
+	margin: 0 auto;
+	justify-content: center;
+	opacity: 0.5;
+/*	margin: 0;
+	padding: 0;*/
+/*	display: flex;*/
+/*	background: all;*/
+}
+.quote-container {
+	justify-content: flex-start;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	font-size: 40px;
+	font-family: vogue;
+	opacity: 0.5;
+	animate
+}
+.greeting-container {
+	background-color: lightblue;
+	justify-content: center;
+  text-align: center;
+  font-family: vogue;
+  font-size: 38px;
+  padding: 7px;
+	text-shadow: 2px 2px silver;
+}
+.email-container {
+	justify-content: center;
+	display: flex;  
+  text-align: center;
+  font-family: vogue;
+  font-size: 20px;
+}
+.column {
+  float: left;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-family: vogue;
+  align-self: center;
+  width: 47%;
+  height: 350px;
+  padding: 10px;
+  text-shadow: 2px 2px silver;
+/*  border: groove silver 3px;*/
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
