@@ -62,6 +62,14 @@ var handler = {
  addTodo: function() {
   var addInput = document.getElementById('addTask');
     todoList.addTodo(addInput.value);
+    const keyInput = addInput.value;
+    const valInput = addInput.value;
+
+    if(keyInput && valInput) {
+      localStorage.setItem(keyInput, valInput);
+    }
+    //localStorage.getItem(keyInput, valInput)
+
     addInput.value = '';
     listTodos.displayTodos();
  },
@@ -73,10 +81,8 @@ var handler = {
     modifyInput.value = '';
     listTodos.displayTodos();
   },
-  deleteTodo: function() {
-  var deleteInput = document.getElementById('deleteTask');
-    todoList.deleteTodo(deleteInput.valueAsNumber);
-    deleteInput.value = '';
+  deleteTodo: function(pos) {
+    todoList.deleteTodo(pos);
     listTodos.displayTodos();
   },
  toggleCompleted: function() {
@@ -117,20 +123,21 @@ var listTodos = {
     deleteBtn.textContent = 'Remove';
     deleteBtn.className = 'deleteBtn';
     return deleteBtn;
-  }
+  },
+  setEvents: function() {
+  var todoUl = document.querySelector('ul');
+
+  todoUl.addEventListener('click', function(event) {
+   var clicked = event.target;
+   if(clicked.className === 'deleteBtn') {
+    handler.deleteTodo(parseInt(clicked.parentNode.id));
+   }
+  });
+ }
 };
 
-var todoUl = document.querySelector('ul');
-todoUl.addEventListener('click', function(event) {
-  console.log(event.target.parentNode.id)
-})
+listTodos.setEvents();
 
-// $(document).ready(function() {
-//   $('.show-todos').on('click', function(el) {
-//     var displayBtn = $('.show-todos').val();
-//     console.log(displayBtn);
-//   })
-// });
 
 // $(document).ready(function(){
 // //   // this is where we jquery

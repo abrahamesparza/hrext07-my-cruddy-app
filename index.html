@@ -13,7 +13,7 @@
 <body>
 
   <div>
-    <h1 style="color: white">Stay Above®</h1>
+    <h1 style="color: white">Simple Task List</h1>
   </div>
 
 
@@ -22,31 +22,26 @@
 <div class="main">
 
   <div>
-    <button onclick="handler.addTodo()"><em>Add Item</em></button>
+    <button onclick="handler.addTodo()"><em>Add Task</em></button><br>
     <input id="addTask" type="text" placeholder="tasks..">
   </div>
 
   <div>
-    <button onclick="handler.modifyTodo()"><em>Modify Item</em></button>
+    <button onclick="handler.modifyTodo()"><em>Modify Task</em></button><br></b>
     <input id="modifyPosition" type="number" placeholder="position..">
     <input id="modifyTask" type="text" placeholder="new task..">
   </div>
 
   <div>
-    <button onclick="handler.deleteTodo()"><em>Delete Item</em></button>
-    <input id="deleteTask" type="number" placeholder="position..">
-  </div>
-
-  <div>
-    <button onclick="handler.toggleCompleted()"><em>Toggle Item</em></button>
+    <button onclick="handler.toggleCompleted()"><em>Complete Task</em></button><br>
     <input id="toggleInput" type="number" placeholder="position..">
   </div>
 
   <div>
-    <button onclick="handler.toggleAll()"><em>Toggle All</em></button>
+    <button onclick="handler.toggleAll()"><em>Complete All</em></button>
   </div>
 
-   <ul>
+   <ul class="listItems"><br>
   </ul>
 
 </div>
@@ -90,7 +85,7 @@
   <div class="data-container"></div>
 
 
- <footer>By Abraham Esparza®</footer>
+ <!-- <footer>By Abraham Esparza®</footer> -->
  <script src="app/app.js"></script>
  </body>
 </html>
