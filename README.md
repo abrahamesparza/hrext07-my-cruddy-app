@@ -16,19 +16,21 @@ Create Read Update and Delete framework using JS
 -----------------------------------------------------------
 
 Objective:
+		Minimum Reqs:
+	* Build an attractive todo list
+	* Create a space to store and display todos
 
-	html/css
+	  - should allow users to:
+	  [ ] add item
+	  [ ] edit item
+	  [ ] clear completed items
+
+<!-- 	html/css
  * Create a subscription page.
    * Allow visitor to sign-up for daily alerts:
      [√] Motivational Quotes
      [√] Inspirational Quotes
-     [√] Peaceful Quotes 
-
-     html/css
- * Make page more appealing
- 	 [ ] Create slideshow for images of motivation, inspiration an mindfulness
- 	 [1of3] Add images that show Motivation, Inspiration, and Mindfulness
- 	 [√] Align all content on page, edit email with a light opacity above all everything
+     [√] Peaceful Quotes
 
  * Add jQuery to .js file
  	* Minimum:
@@ -36,9 +38,7 @@ Objective:
  	 [ ] Make all the buttons work.
  	
  	* Advanced:
- 	 [√] Create a success messsage when email submitted (html/jquery)
- 	 [ ] Create a random generator to change photos of all sections in every x amount of time
- 	     (Pass in 3 photos each section)
+ 	 [√] Create a success messsage when email submitted (html/jquery) -->
 
 <!-- * App requirements:
 

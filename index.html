@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inspire</title>
+  <title>Get Sh*t Done</title>
   <script
-          src="https://code.jquery.com/jquery-3.3.1.js"
-          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-          crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-  <script src="app/app.js"></script>
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <div class="headline-container">
-    <h1 style="color: white">Levitate.</h1>
+  <div>
+    <header style="color: white">Get Sh*t Done</header>
+  </div>
+<div class="main">
+  <div>
+    <button onclick="handler.addTodo()"><em>Add Item</em></button>
+    <input id="addTask" type="text" placeholder="tasks..">
   </div>
 
-    <div class="image-container">
-      <img src="imgs/insbg.jpg" alt="Inspiring View" width="75%">
-    </div>
+  <div>
+    <button onclick="handler.modifyTodo()"><em>Modify Item</em></button>
+    <input id="modifyPosition" type="number" placeholder="position..">
+    <input id="modifyTask" type="text" placeholder="new task..">
+  </div>
 
-      <div class="quote-container">
-        <h1><em>The World Is But A Canvas For Our Imagination</em></h1>
-      </div>
+  <div>
+    <button onclick="handler.deleteTodo()"><em>Delete Item</em></button>
+    <input id="deleteTask" type="number" placeholder="position..">
+  </div>
+
+  <div>
+    <button onclick="handler.toggleCompleted()"><em>Toggle Item</em></button>
+    <input id="toggleInput" type="number" placeholder="position..">
+  </div>
+
+  <div>
+    <button onclick="handler.toggleAll()"><em>Toggle All</em></button>
+  </div>
+
+   <ul>
+  </ul>
+
+</div>
+
+<!-- 
+  <div class="form-container">
+    <form>
+      <h4><em>Discover how much of your day is spent on your habits:<br><small>'habit: a settled or regular tendency or practice,<br>especially one that is hard to give up.'</small></em></h4>
+      Habit:
+      <input type="text" name="user-key"> | Time(Hr): <input type="text" name="user-val"><br>
+      Habit:
+      <input type="text" name="user-key"> | Time(Hr): <input type="text" name="user-val"><br>
+      Habit:
+      <input type="text" name="user-key"> | Time(Hr): <input type="text" name="user-val"><br>
+      Habit:
+      <input type="text" name="user-key"> | Time(Hr): <input type="text" name="user-val"><br>
+      Sleep:
+      | Time(Hr): <input type="text" name="user-val"><br>
+      <button class="input-btn">Submit</button>
+    </form>
+  </div> -->
   
 
-    <div class="row">
-     <div class="column">
-      <!-- <header> Motivation </header> -->
+<!--   <div class="row">
       <p><em><strong>Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.</strong></em></p>
-     </div>
-    <div class="column">
-     <!--  <header> Inspiration </header> -->
       <p><em><strong>We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.</strong></em></p>
-    </div>
-  </div>
+  </div> -->
 
-   <div class="greeting-container">
-    <header style="color: white">Subscribe for daily Mindfulness</header>
+<!--    <div class="greeting-container">
+    <header style="color: white">Subscribe for daily Mindfulness<br><em><small>Our tips will help you create a path towards your goals!</small></em></header>
     <h5 style="color: white">
       <em>Morning Motivation<br><br>
       Energy Hacks<br><br>
@@ -50,17 +81,13 @@
         <input type="email" class="email" placeholder="email.." size="50%">
         <button type="email" onclick="alert('Thanks for your submission!')">Submit</button>
       </div>
-  </div>
-
-<!--   <div class="note-container">
-    <input type="text" class="note1" placeholder="Email.." size="50%">
-    <button class="note-btn" onclick="alert('Thank you for your submission!')">Submit</button>
   </div> -->
-
   <div class="data-container"></div>
 
-</body>
-<!-- <footer>Created By Abraham Esparza</footer> -->
+
+<!--  <footer>By Abraham Esparza®</footer> -->
+ <script src="app/app.js"></script>
+ </body>
 </html>
 
   <!--
