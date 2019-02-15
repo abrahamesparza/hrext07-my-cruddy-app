@@ -47,6 +47,29 @@ h1 {
 	font-family: vogue;
 	opacity: 0.5;
 }
+.greeting-container {
+  /*background-color: lightblue;*/
+  justify-content: center;
+  text-align: center;
+  font-family: vogue;
+  font-size: 32px;
+/*  opacity: .5;*/
+  font-size: 38px;
+  padding: 7px;
+	text-shadow: 2px 2px silver;
+}
+.column {
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: vogue;
+  align-self: center;
+  width: 45%;
+  height: 350px;
+  padding: 10px;
+  text-shadow: 2px 2px silver;
+}
 .row {
   float: left;
   text-align: center;
